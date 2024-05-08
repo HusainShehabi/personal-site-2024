@@ -21,7 +21,10 @@ export default function GridItem({
   }`;
 
   const [hoverVariant, setHoverVariant] = useState("rest");
-  const [gradientPosition, setGradientPosition] = useState({ x: 50, y: 50 });
+  const [gradientPosition, setGradientPosition] = useState<{
+    x: number;
+    y: number;
+  } | null>(null);
 
   // Define variants for animation
   const variants = {
@@ -58,6 +61,7 @@ export default function GridItem({
   // Reset to rest state on mouse leave
   const handleMouseLeave = () => {
     setHoverVariant("rest");
+    setGradientPosition(null);
   };
 
   // Handle mouse move within the component
@@ -74,7 +78,9 @@ export default function GridItem({
 
   // Inline style for dynamic gradient
   const dynamicStyle = {
-    backgroundImage: `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, rgba(52, 242, 125, 10%), rgba(255,255,255,0) 70%)`,
+    backgroundImage: gradientPosition
+      ? `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, rgba(47, 105, 235, 10%), rgba(255,255,255,0) 70%)`
+      : "none",
     ...style,
   };
 
