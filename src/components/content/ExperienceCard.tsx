@@ -8,7 +8,7 @@ export default function ExperienceCard({}: Props) {
   return (
     <div className="w-full h-full font-sans text-2xl text-gray-300">
       <div className="flex flex-col">
-        <div className="font-bold text-4xl text-gray-300">Experience</div>
+        <div className="font-semibold text-4xl text-gray-300">Experience</div>
         {data.map((item) => (
           <ExperienceItem
             date={item.date}
