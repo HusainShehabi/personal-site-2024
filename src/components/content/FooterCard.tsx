@@ -5,7 +5,7 @@ export default function FooterCard() {
   return (
     <div className="font-light text-gray-300 flex col-span-2 m">
       <div className=" mr-2">
-        <img src={Cloud} width={70} height={70} />
+        <img src={Cloud} alt={"Cloud Strife"} width={70} height={70} />
       </div>
       <div className="">
         <p>
