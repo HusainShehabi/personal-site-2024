@@ -2,9 +2,7 @@ import React from "react";
 import ExperienceItem from "./ExperienceItem";
 import { data } from "../../data";
 
-type Props = {};
-
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard() {
   return (
     <div className="w-full h-full font-sans text-2xl text-gray-300">
       <div className="flex flex-col">

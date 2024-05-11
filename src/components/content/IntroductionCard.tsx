@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-export default function IntroductionCard({}: Props) {
+export default function IntroductionCard() {
   return (
     <div className="w-full h-full font-sans text-2xl text-gray-300">
       <div className="grid grid-cols-2 gap-4">
