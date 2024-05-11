@@ -1,29 +1,12 @@
 import CssGrid from "./components/CssGrid";
 
 function App() {
-  const pageStyle = {
-    height: "100vh",
-    margin: 0,
-    background: "radial-gradient(circle at center, #ffffff, #000000)",
-  };
-
   return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        position: "relative",
-        background:
-          "radial-gradient(circle at center right, #0c1f69 10%, #081139 40%, #060e22 100%)",
-      }}
-    >
-      <div
-        className="min-h-screen"
-        // style={{ background: "#090f1c", zIndex: 10 }}
-      >
-        <div className="max-w-5xl mx-auto">
-          <CssGrid />
-        </div>
+    <div className="relative bg-[#060e22] min-h-screen">
+      <div className="relative max-w-5xl mx-auto ">
+        <div className="absolute top-[-6rem] right-[10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] bg-[#6d315c] sm:w-[68.75rem] lg:right-[-15rem] xl:right-[-10rem]"></div>
+        <div className="absolute top-[-7rem] left-[-20rem] h-[50rem] w-[31.25rem] rounded-full blur-[10rem] bg-[#2f2486] sm:w-[68.75rem] lg:left-[-15rem] xl:left-[-10rem]"></div>
+        <CssGrid />
       </div>
     </div>
   );
