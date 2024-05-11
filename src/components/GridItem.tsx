@@ -29,10 +29,10 @@ export default function GridItem({
   // Define variants for animation
   const variants = {
     rest: { scale: 1, rotate: 0 },
-    hoverTopLeft: { scale: 1, rotate: -1.5 },
-    hoverTopRight: { scale: 1, rotate: 1.5 },
-    hoverBottomLeft: { scale: 1, rotate: 1.5 },
-    hoverBottomRight: { scale: 1, rotate: -1.5 },
+    hoverTopLeft: { scale: 1, rotate: -1.2 },
+    hoverTopRight: { scale: 1, rotate: 1.2 },
+    hoverBottomLeft: { scale: 1, rotate: 1.2 },
+    hoverBottomRight: { scale: 1, rotate: -1.2 },
   };
 
   // Handle mouse enter
@@ -76,7 +76,6 @@ export default function GridItem({
     setGradientPosition({ x, y });
   };
 
-  // Inline style for dynamic gradient
   const dynamicStyle = {
     backgroundImage: gradientPosition
       ? `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, rgba(47, 105, 235, 10%), rgba(255,255,255,0) 70%)`
