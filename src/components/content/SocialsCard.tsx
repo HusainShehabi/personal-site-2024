@@ -1,7 +1,5 @@
 import React from "react";
 
-type Props = {};
-
-export default function s({}: Props) {
+export default function s() {
   return <div>Github LinkedIn </div>;
 }

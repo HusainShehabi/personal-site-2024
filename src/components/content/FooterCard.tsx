@@ -1,9 +1,7 @@
 import React from "react";
 import Cloud from "../../assets/Cloud-ffvii-battle.png";
 
-type Props = {};
-
-export default function FooterCard({}: Props) {
+export default function FooterCard() {
   return (
     <div className="font-light text-gray-300 flex col-span-2 m">
       <div className=" mr-2">
