@@ -3,9 +3,9 @@ import Cloud from "../../assets/Cloud-ffvii-battle.png";
 
 export default function FooterCard() {
   return (
-    <div className="font-light text-gray-300 flex col-span-2 m">
-      <div className=" mr-2">
-        <img src={Cloud} alt={"Cloud Strife"} width={70} height={70} />
+    <div className="font-light text-sm text-gray-300 flex col-span-2 m opacity-90">
+      <div className=" mr-9">
+        <img src={Cloud} alt={"Cloud Strife"} width={60} height={60} />
       </div>
       <div className="">
         <p>

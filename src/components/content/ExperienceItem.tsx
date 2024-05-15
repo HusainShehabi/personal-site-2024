@@ -17,11 +17,10 @@ export default function ExperienceItem({
 }: Props) {
   const containerStyle = {
     padding: "20px",
-    margin: "10px 0",
   };
 
   return (
-    <div style={containerStyle} className="overflow-hidden">
+    <div style={containerStyle} className="overflow-hidden ">
       <div className="text-sm">
         <p className="text-gray-300">{date}</p>
       </div>
@@ -34,7 +33,7 @@ export default function ExperienceItem({
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="bg-blue-800 text-white text-xs font-medium mx-1 my-1 px-3 py-1 rounded-full"
+              className="bg-blue-800 text-white text-xs font-medium mx-1 my-1 px-3 py-1 rounded-full "
             >
               {tech}
             </span>
