@@ -1,7 +1,5 @@
 import { ICertificates } from "../interfaces/ICertificates";
-import aws from "../../assets/aws.svg"
-import scrum from "../../assets/scrum-alliance-vector-logo.svg"
-import udemy from "../../assets/udemy.svg"
+
 
 
 

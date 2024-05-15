@@ -1,5 +1,4 @@
 import React from "react";
-import PFP from "../../assets/profilepic.jpeg";
 
 export default function IntroductionCard() {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import { certificates } from "../libs/certificates";
 import CertificateItem from "./CertificateItem";
 
