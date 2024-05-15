@@ -19,7 +19,9 @@ export default function CssGrid() {
       </GridItem>
       {/*--------------------------------------------------*/}
 
-      <GridItem className="col-span-3 xl:col-span-2 row-span-6">2</GridItem>
+      <GridItem className="col-span-3 xl:col-span-2 row-span-6">
+        <FooterCard />
+      </GridItem>
 
       {/*--------------------------------------------------*/}
     </div>
