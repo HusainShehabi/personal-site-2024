@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceItem from "./ExperienceItem";
-import { data } from "../../data";
+import { data } from "../libs/data";
 
 export default function ExperienceCard() {
   return (
