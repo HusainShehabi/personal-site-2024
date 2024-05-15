@@ -26,7 +26,7 @@ export default function CertificateItem({
     <a href={link} target="_blank" rel="noopener noreferrer">
       <div
         style={containerStyle}
-        className="flex items-center justify-between overflow-hidden rounded-lg hover:border"
+        className="flex items-center justify-between overflow-hidden rounded-lg hover:bg-white/5 hover:backdrop-blur-md"
       >
         {image && (
           <div className="mr-4 flex-shrink-0">
