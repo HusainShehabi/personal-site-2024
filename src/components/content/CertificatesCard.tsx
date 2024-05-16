@@ -5,7 +5,7 @@ export default function CertificatesCard() {
   return (
     <div className="w-full font-sans text-2xl text-gray-300">
       <div className="flex flex-col">
-        <div className="font-semibold text-4xl text-gray-300 pb-2">
+        <div className="font-semibold text-4xl text-gray-300 pb-2 ml-2">
           Certificates
         </div>
         {certificates.map((certificate) => (

@@ -3,6 +3,7 @@ import CertificatesCard from "./content/CertificatesCard";
 import ExperienceCard from "./content/ExperienceCard";
 import FooterCard from "./content/FooterCard";
 import IntroductionCard from "./content/IntroductionCard";
+import ProjectsCard from "./content/ProjectsCard";
 import SocialsCard from "./content/SocialsCard";
 
 export default function CssGrid() {
@@ -14,13 +15,16 @@ export default function CssGrid() {
       <GridItem className="col-span-3 xl:col-span-2 row-span-3">
         <ExperienceCard />
       </GridItem>
-      <GridItem className="col-span-3 xl:col-span-3 row-span-8">
+      <GridItem className="col-span-3 xl:col-span-3 row-span-3">
         <CertificatesCard />
       </GridItem>
       <GridItem className="col-span-3 xl:col-span-2 row-span-1">
         <SocialsCard />
       </GridItem>
-      <GridItem className="col-span-3 xl:col-span-2 row-span-6">
+      <GridItem className="col-span-3 xl:col-span-2 row-span-3">
+        <ProjectsCard />
+      </GridItem>
+      <GridItem className="col-span-3 xl:col-span-3 row-span-2">
         <FooterCard />
       </GridItem>
     </div>
