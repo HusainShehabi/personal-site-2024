@@ -1,6 +1,5 @@
 import React from "react";
 import { HiExternalLink } from "react-icons/hi";
-import spotify from "../../assets/spotify.png";
 
 type Props = {
   title: string;
