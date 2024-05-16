@@ -1,36 +1,24 @@
-import React from "react";
 import { HiExternalLink } from "react-icons/hi";
 
 type Props = {
   title: string;
   Description?: string;
   link: string;
-  image: string | undefined;
+  image?: string | undefined;
 };
 
 const containerStyle = {
   padding: "15px",
 };
 
-export default function ProjectItem({
-  title,
-  Description,
-  link,
-  image,
-}: Props) {
+export default function ProjectItem({ title, Description, link }: Props) {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
       <div
         style={containerStyle}
         className="flex items-center justify-between overflow-hidden rounded-lg hover:bg-white/5 hover:backdrop-blur-md"
       >
-        <div className="mr-4 flex-shrink-0">
-          {/* <img
-            src={spotify}
-            alt={"Logo"}
-            className="w-40 h-40 border rounded-md border-gray-300"
-          /> */}
-        </div>
+        <div className="mr-4 flex-shrink-0"></div>
 
         <div className="flex-1">
           <p className="text-base font-semibold text-white">{title}</p>
