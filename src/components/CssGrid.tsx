@@ -3,7 +3,6 @@ import CertificatesCard from "./content/CertificatesCard";
 import ExperienceCard from "./content/ExperienceCard";
 import FooterCard from "./content/FooterCard";
 import IntroductionCard from "./content/IntroductionCard";
-import ProfilePictureCard from "./content/ProfilePictureCard";
 import ProjectsCard from "./content/ProjectsCard";
 import SocialsCard from "./content/SocialsCard";
 import hero from "../assets/2.jpg";

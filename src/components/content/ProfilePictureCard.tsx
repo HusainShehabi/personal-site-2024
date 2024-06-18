@@ -1,4 +1,3 @@
-import React from "react";
 import TempPP from "../../assets/tempPP.jpeg";
 
 type Props = {};
